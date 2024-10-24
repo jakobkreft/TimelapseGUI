@@ -107,7 +107,7 @@ class TimelapseApp:
         new_height = int(img_height * scale)
 
         # Resize the image
-        resized_img = img.resize((new_width, new_height), Image.ANTIALIAS)
+        resized_img = img.resize((new_width, new_height), Image.LANCZOS)
         return resized_img
 
     def update_preview(self):
