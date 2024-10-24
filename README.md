@@ -15,8 +15,13 @@ Simple linux timelapse app with GUI
 - Pillow (Pillow)
 - Tkinter (usually included with Python)
 
-'''
+```bash
+# Install dependencies
 pip install opencv-python Pillow
-'''
 
+# Run the application
+python timelapse_app.py
+```
 
+## GUI
+![Screenshot](./Screenshot.png)
